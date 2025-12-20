@@ -1,0 +1,72 @@
+.coffee-page {
+    background-color: #2F4F4F;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Custom navbar hover for coffee page - warm gold/amber theme */
+.coffee-page .navdiv ul li a:hover {
+    background: linear-gradient(135deg, #D4AF37 0%, #F4C430 100%) !important;
+    color: #2F4F4F !important;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.5) !important;
+}
+
+.coffee-page .navdiv ul li a:hover::after {
+    background: linear-gradient(90deg, transparent, #F4C430, transparent) !important;
+}
+
+.menu-container {
+    padding: 20px;
+}
+
+.coffee-page .card {
+    background-color: #416d6d;
+    color: #f7e2ba;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    margin: 5px;
+}
+
+.coffee-page .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.coffee-page .card img {
+    width: 290px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.coffee-page .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.coffee-page .card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D4AF37;
+}
+/* Custom side navigation for coffee page */
+.coffee-page .side-nav {
+  background: linear-gradient(180deg, #5a7a6d 0%, #416d6d 100%) !important;
+}
+
+.coffee-page .side-nav ul li a:hover {
+  background-color: rgba(212, 175, 55, 0.3) !important;
+}
+
+.coffee-page .menu-button {
+  background-color: #5a7a6d !important;
+}
+
+.coffee-page .menu-button:hover {
+  background-color: #D4AF37 !important;
+  color: #2F4F4F !important;
+}

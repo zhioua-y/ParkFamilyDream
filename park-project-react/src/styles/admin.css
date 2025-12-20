@@ -1,0 +1,146 @@
+/* Admin and Employee pages */
+.admin-page,
+.employee-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+}
+
+/* Navigation (sidebar) */
+.admin-page nav,
+.employee-page nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.admin-page nav h2,
+.employee-page nav h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.admin-page nav ul,
+.employee-page nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-page nav ul li,
+.employee-page nav ul li {
+    padding: 15px 20px;
+    margin: 5px 0;
+    background-color: #34495e;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.admin-page nav ul li:hover,
+.employee-page nav ul li:hover {
+    background-color: #1abc9c;
+}
+
+/* Section */
+section.Emplye {
+    margin-left: 270px;
+    padding: 20px;
+    width: calc(100% - 270px);
+}
+
+/* Buttons */
+.admin-page button,
+.employee-page button {
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-page button:hover,
+.employee-page button:hover {
+    background-color: #16a085;
+}
+
+/* Forms */
+.admin-page form,
+.employee-page form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.admin-page form input,
+.admin-page form textarea,
+.employee-page form input,
+.employee-page form textarea {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 1 200px;
+}
+
+.employee-page form textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+/* Tables */
+.admin-page table,
+.employee-page table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.admin-page th,
+.admin-page td,
+.employee-page th,
+.employee-page td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.admin-page th,
+.employee-page th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.admin-page h3,
+.employee-page h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
